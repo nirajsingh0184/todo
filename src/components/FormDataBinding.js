@@ -7,7 +7,7 @@ function Welcome() {
     const lname=useRef();
 
     function binding() {  
-      const _fname=fname.current.value;
+      const _fname=fname.current.value; 
       const _lname=lname.current.value;
       SetValue(_fname+_lname); 
      }
